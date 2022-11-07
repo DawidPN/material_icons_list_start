@@ -1,0 +1,41 @@
+@import url('reset.css');
+
+.material-icons {
+    color: green;
+    font-size: 30px;
+}
+
+.color-red {
+    color: red;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        flex-direction: row;
+    }
+}
